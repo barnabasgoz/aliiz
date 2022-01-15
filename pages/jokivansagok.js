@@ -19,6 +19,8 @@ function Jokivansagok(props) {
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>&quot;Kenyér&quot;-Panda</div>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Kedves Alíz! Remélem nagyon jól fogod magad érezni az egyetemen, és külföldön! Gondolunk rád! Jó utat, és sok erőt, kitartást!:D</div>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Hiányozni fogsz!</div>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Érezd magad nagyon jól külföldön! Nagyon, nagyon fogsz hiányozni, várunk vissza! ❤️</div>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>szia aliiz!!! hianyzok? na biztos, hogy igen:)) remelem jol tellnek a napjaid es h nem kapod el a covidot, vigyazz magadra mert kellesz az osztalynak, es hianyzol te is mar nekunk:)) nem tudom, h meg jarsz-e, de sok sikert az egyetemhez!! ❤️ ❤️ 🥰</div>
             </div>
             <br/>
             <Link href="/">
