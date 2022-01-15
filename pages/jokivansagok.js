@@ -21,6 +21,9 @@ function Jokivansagok(props) {
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Hiányozni fogsz!</div>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Érezd magad nagyon jól külföldön! Nagyon, nagyon fogsz hiányozni, várunk vissza! ❤️</div>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>szia aliiz!!! hianyzok? na biztos, hogy igen:)) remelem jol tellnek a napjaid es h nem kapod el a covidot, vigyazz magadra mert kellesz az osztalynak, es hianyzol te is mar nekunk:)) nem tudom, h meg jarsz-e, de sok sikert az egyetemhez!! ❤️ ❤️ 🥰</div>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Sok szerencsét az egyetemen és hiányozni fogsz! ❤️</div>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Érezd nagyon jól magad!! ❤️✨</div>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Remélem, hogy neked is lesz egy olyan ember az életetben, aki annyit segít majd neked, mint te nekünk. Boldog mindenfélét- SzÁkos</div>
             </div>
             <br/>
             <Link href="/" passHref>
