@@ -16,14 +16,20 @@ function Jokivansagok(props) {
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Majd küldj képeket!</div>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Remélem, nagyon jól érzed magad! Várunk haza!</div>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>💖 Thank you 💖</div>
-                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>&quot;Kenyér&quot;-Panda</div>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Kedves Alíz! Remélem nagyon jól fogod magad érezni az egyetemen, és külföldön! Gondolunk rád! Jó utat, és sok erőt, kitartást!:D</div>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>&quot;Kenyér&quot;-Panda</div>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Hiányozni fogsz!</div>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Érezd magad nagyon jól külföldön! Nagyon, nagyon fogsz hiányozni, várunk vissza! ❤️</div>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>szia aliiz!!! hianyzok? na biztos, hogy igen:)) remelem jol tellnek a napjaid es h nem kapod el a covidot, vigyazz magadra mert kellesz az osztalynak, es hianyzol te is mar nekunk:)) nem tudom, h meg jarsz-e, de sok sikert az egyetemhez!! ❤️ ❤️ 🥰</div>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Sok szerencsét az egyetemen és hiányozni fogsz! ❤️</div>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Érezd nagyon jól magad!! ❤️✨</div>
-                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Remélem, hogy neked is lesz egy olyan ember az életetben, aki annyit segít majd neked, mint te nekünk. Boldog mindenfélét- SzÁkos</div>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Bon voyage ✈️</div>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Remélem, hogy neked is lesz egy olyan ember az életetben, aki annyit segít majd neked, mint te nekünk. - SzÁkos</div>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Érezd nagyon, nagyon jól magad!</div>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Jó utat, érezd jól magad!!! És küldj képeket!! ❤️</div>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Érezd nagyon nagyon jól magad! ❤️ </div>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Érezd magad nagyon jól Aliz és vidd el Bünther kistesóját mendenfelé! Várjuk a fotókat, hát még Téged vissza! De nagyon ám!!</div>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Sok sikert! Legyél boldog és küzdj a céljaidért!</div>
             </div>
             <br/>
             <Link href="/" passHref>
