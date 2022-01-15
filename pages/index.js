@@ -1,10 +1,24 @@
 import Head from 'next/head'
+import Script from 'next/script'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
     return (
       <div className='w-screen h-auto min-h-screen flex justify-center items-center bg-image bg-cover flex-col '>
+        <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-T4M4E2N7D4"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-T4M4E2N7D4');
+        `}
+      </Script>
         <Head>
           <title>Még egy meglepi! 😀</title>
         </Head>
