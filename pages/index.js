@@ -29,7 +29,7 @@ export default function Home() {
           <div>
             <h1 className='font-poppins font-bold text-white'>Válasz a lehetőségekből!</h1>
           </div>
-          <Link href="/jokivansagok">
+          <Link href="/jokivansagok" passHref>
             <div className='w-11/12 h-12 bg-blue-300 hover:bg-blue-400 text-center rounded-md font-poppins pt-3 pb-3 text-base hover:text-lg duration-700 cursor-pointer'>
               <h1 className='font-poppins font-bold text-white'>📫 Olvass el pár üzenetet az osztálytól.</h1>
             </div>

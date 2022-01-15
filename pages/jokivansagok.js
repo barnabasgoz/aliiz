@@ -23,7 +23,7 @@ function Jokivansagok(props) {
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>szia aliiz!!! hianyzok? na biztos, hogy igen:)) remelem jol tellnek a napjaid es h nem kapod el a covidot, vigyazz magadra mert kellesz az osztalynak, es hianyzol te is mar nekunk:)) nem tudom, h meg jarsz-e, de sok sikert az egyetemhez!! ❤️ ❤️ 🥰</div>
             </div>
             <br/>
-            <Link href="/">
+            <Link href="/" passHref>
                 <div className='bg-blue-300 hover:bg-blue-400 duration-700 text-white font-poppins font-bold text-lg hover:text-2xl p-3 rounded-lg'>Vissza</div>
             </Link>
             
