@@ -9,7 +9,7 @@ function Jokivansagok(props) {
             <Head>
                 <title>Jókívánságok 😀</title>
             </Head>
-            <h1 className='mt-5 text-white font-bold font-poppins text-4xl glassbck p-3 w-5/6 text-center duration-700'>Jókivánságaink vagy üzeneteink 😀</h1>
+            <h1 className='mt-10 text-white font-bold font-poppins text-4xl glassbck p-3 w-5/6 text-center duration-700'>Jókivánságaink vagy üzeneteink 😀</h1>
             <br/>
             <div className='mb-5 w-5/6 h-auto glassbck duration-700 rounded-md p-2 pt-5 pb-5 flex justify-center flex-wrap gap-2 '>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>✨ Vigyázz magadra 💕 ✨</div>
@@ -27,7 +27,7 @@ function Jokivansagok(props) {
             </div>
             <br/>
             <Link href="/" passHref>
-                <div className='bg-blue-300 hover:bg-blue-400 duration-700 text-white font-poppins font-bold text-lg hover:text-2xl p-3 rounded-lg'>Vissza</div>
+                <div className='bg-blue-300 hover:bg-blue-400 duration-700 text-white font-poppins font-bold text-lg hover:text-2xl p-3 rounded-lg mb-10'>Vissza</div>
             </Link>
             
         </div>
