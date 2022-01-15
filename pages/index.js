@@ -4,10 +4,10 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
     return (
-      <div className='w-screen h-screen flex justify-center items-center bg-image bg-cover flex-col '>
-        <h1 className='text-white font-bold font-poppins text-4xl glassbck p-3 w-5/6 text-center duration-700'>Még egy meglepi! 😀</h1>
+      <div className='w-screen h-auto min-h-screen flex justify-center items-center bg-image bg-cover flex-col '>
+        <h1 className='mt-5 text-white font-bold font-poppins text-4xl glassbck p-3 w-5/6 text-center duration-700'>Még egy meglepi! 😀</h1>
         <br/>
-        <div className='w-5/6 h-auto glassbck duration-700 rounded-md p-2 pt-5 pb-5 flex flex-col justify-items-start items-center gap-2'>
+        <div className='mb-5 w-5/6 h-auto glassbck duration-700 rounded-md p-2 pt-5 pb-5 flex flex-col justify-items-start items-center gap-2'>
           <div>
             <h1 className='font-poppins font-bold text-white'>Válasz a lehetőségekből!</h1>
           </div>
