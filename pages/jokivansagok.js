@@ -30,6 +30,8 @@ function Jokivansagok(props) {
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Érezd nagyon nagyon jól magad! ❤️ </div>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Érezd magad nagyon jól Aliz és vidd el Bünther kistesóját mendenfelé! Várjuk a fotókat, hát még Téged vissza! De nagyon ám!!</div>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Sok sikert! Legyél boldog és küzdj a céljaidért!</div>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Csodás fél évet Neked!!!🥰</div>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Love life, its only one,you have ❤️</div>
             </div>
             <br/>
             <Link href="/" passHref>
