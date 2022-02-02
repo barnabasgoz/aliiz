@@ -5,13 +5,23 @@ import Link from 'next/link'
 
 function Jokivansagok(props) {
     return (
-        <div className='w-screen h-auto min-h-screen flex justify-center items-center bg-image bg-cover flex-col '>
+        <div className='w-full-width h-auto min-h-screen flex justify-center items-center bg-image bg-cover flex-col '>
             <Head>
                 <title>Jókívánságok 😀</title>
             </Head>
             <h1 className='mt-10 text-white font-bold font-poppins text-4xl glassbck p-3 w-5/6 text-center duration-700'>Jókivánságaink vagy üzeneteink 😀</h1>
             <br/>
-            <div className='mb-5 w-5/6 h-auto glassbck duration-700 rounded-md p-2 pt-5 pb-5 flex justify-center flex-wrap gap-2 '>
+            <details className="w-5/6 pm_glassbck text-center p-3 h-auto">
+            <summary className="font-poppins text-xl text-white font-bold">A jelenleg legújabb üzeneteink</summary>
+            <div className='mb-5 w-11/12 h-auto pm_glassbck rounded-md p-2 pt-5 pb-5 flex justify-center flex-wrap gap-2 mr-auto ml-auto'>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>nagyon várunk haza ❤️ addig is érezd nagyon-nagyon jól magad és vigyázz magadra!!!</div>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Szia Aliiz! Egyszer énekeld el nekünk a tábordalodat😍❤️</div>
+            </div>
+            </details>
+            <br/>
+            <details className="w-5/6 pm_glassbck text-center p-3 h-auto">
+            <summary className="font-poppins text-white font-bold">Elutazásod előtti üzeneteink</summary>
+            <div className='mb-5 w-11/12 h-auto pm_glassbck rounded-md p-2 pt-5 pb-5 flex justify-center flex-wrap gap-2 mr-auto ml-auto'>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>✨ Vigyázz magadra 💕 ✨</div>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Majd küldj képeket!</div>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Remélem, nagyon jól érzed magad! Várunk haza!</div>
@@ -33,9 +43,10 @@ function Jokivansagok(props) {
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Csodás fél évet Neked!!!🥰</div>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Love life, its only one,you have ❤️</div>
             </div>
+            </details>
             <br/>
             <Link href="/" passHref>
-                <div className='bg-blue-300 hover:bg-blue-400 duration-700 text-white font-poppins font-bold text-lg hover:text-2xl p-3 rounded-lg mb-10'>Vissza</div>
+                <div className='bg-blue-300 hover:bg-blue-400 duration-700 text-white font-poppins font-bold text-lg hover:text-2xl p-3 rounded-lg mb-10 cursor-pointer'>Vissza</div>
             </Link>
             
         </div>
