@@ -3,8 +3,27 @@ import Script from 'next/script'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import { useEffect, useState } from 'react'
+import { Octokit } from "@octokit/core";
 
 export default function Home() {
+  const [Date, setDate] = useState('Loading...');
+
+  useEffect(() => {
+    async function getLastCommitDate () {
+        const octokit = new Octokit({ auth: process.env.TOKEN });
+        console.log(process.env.TOKEN);
+        const master = await octokit.request('GET /repos/{owner}/{repo}/branches/{branch}', {
+            owner: 'barnabasgoz',
+            repo: 'aliiz',
+            branch: 'master'
+          });  
+        console.log(master);
+        setDate(master.data.commit.commit.author.date)        
+    };
+
+  getLastCommitDate()
+}, []);
     return (
       <div className='w-screen h-auto min-h-screen flex justify-center items-center bg-image bg-cover flex-col '>
         <Script
@@ -52,6 +71,7 @@ export default function Home() {
           <a  className='w-11/12 h-12 bg-blue-300 hover:bg-blue-400 text-center rounded-md font-poppins pt-3 pb-3 text-base hover:text-lg duration-700 cursor-pointer' href="mailto:7b@e5vos.hu">
             <h1 className='font-poppins font-bold text-white'>📮  írj nekünk üzenetet.</h1>
           </a>
+          <p className='font-poppins text-sm font-semibold text-white'>Az oldal utoljára {Date}-kor volt frissítve.</p>
         </div>
       </div>
     )
