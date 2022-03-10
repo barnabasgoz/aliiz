@@ -14,6 +14,15 @@ function Jokivansagok(props) {
             <details className="w-5/6 pm_glassbck text-center p-3 h-auto">
             <summary className="font-poppins text-xl text-white font-bold">A jelenleg legújabb üzeneteink</summary>
             <div className='mb-5 w-11/12 h-auto pm_glassbck rounded-md p-2 pt-5 pb-5 flex justify-center flex-wrap gap-2 mr-auto ml-auto'>
+                <div onClick={() => alert("Kis segítség: A felső pontokat nézd az egy pont rövid, a 3 pont hosszú. A hosszabb szünetek azt jelölik, hogy új betű kezdődik.")} className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Véletlenül sem morse: ..:..:..:..:....:....:..:::..:..:....:..:::..:..:....:::..:::..:::.. (Nyomj rám segítségért)</div>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>ALIZ!! K-I-S-B-Ü-N-T-E-R!! Kisbünter. Teccen megtanulni! Egyébként örülök, hogy jól vagy, mi is elvagyunk. Az normális, ha a Tanárnő tőlünk szeretne élénk színű hajsprét kapni? Azt mondja nem neki kell, de nem vagyok benne biztos, hogy hiszek neki...</div>
+                <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Nagyon hiányzoool💕💕 várunk vissza, de addig is érezd jól magad.</div>
+            </div>
+            </details>
+            <br/>
+            <details className="w-5/6 pm_glassbck text-center p-3 h-auto">
+            <summary className="font-poppins text-white font-bold">A második leveled előtti üzeneteink</summary>
+            <div className='mb-5 w-11/12 h-auto pm_glassbck rounded-md p-2 pt-5 pb-5 flex justify-center flex-wrap gap-2 mr-auto ml-auto'>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>nagyon várunk haza ❤️ addig is érezd nagyon-nagyon jól magad és vigyázz magadra!!!</div>
                 <div className='text-white font-poppins text-base hover:text-lg duration-700 hover:bg-blue-400 bg-blue-300 pt-3 pb-3 p-2 rounded-md'>Szia Aliiz! Egyszer énekeld el nekünk a tábordalodat😍❤️</div>
             </div>
